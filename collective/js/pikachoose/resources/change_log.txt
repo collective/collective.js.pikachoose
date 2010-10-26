@@ -1,0 +1,8 @@
+Change Log
+
+*4.0 Major release. PikaChoose is now faster and simpler to use. See http://www.pikachoose.com/documentation for full details.
+
+*4.0.2 showCaption option added. Prevents the caption from being shown. Fixed a IE8 bug.
+
+*4.0.3 Fixed a bug where the fist caption wouldn't show on load
+*4.0.4 Fixed a bug where the first image wouldn't get the active class. Thanks to Tushar for pointing this out.

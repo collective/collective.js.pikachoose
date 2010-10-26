@@ -1,0 +1,30 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="collective.js.pikachoose">
+
+  <browser:resource
+    name="jquery.pikachoose-4.0.4.js"
+    file="resources/assets/js/jquery.pikachoose.js"
+    />
+  <browser:resource
+    name="jquery.jcarousel.js"
+    file="resources/assets/js/jquery.jcarousel.min.js"
+    />
+  <browser:resourceDirectory
+    name="jquery.pikachoose"
+    directory="resources"
+    />
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.js.pikachoose default"
+      directory="profiles/default"
+      description='Install collective.js.pikachoose in Plone'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+  />
+
+</configure>
