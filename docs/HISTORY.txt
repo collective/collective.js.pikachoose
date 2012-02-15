@@ -6,6 +6,11 @@ Changelog
 
 - Nothing changed yet.
 
+1.1b1 (2012-02-15)
+------------------
+
+- javascript updated to version released 1/16/2012 [espen]
+
 
 1.0b1 (2010-10-26)
 ------------------
