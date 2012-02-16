@@ -8,7 +8,7 @@
     i18n_domain="collective.js.pikachoose">
 
   <browser:resource
-    name="jquery.pikachoose-4.0.4.js"
+    name="jquery.pikachoose.js"
     file="resources/assets/js/jquery.pikachoose.js"
     />
   <browser:resource
