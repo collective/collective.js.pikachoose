@@ -26,5 +26,12 @@
       description='Install collective.js.pikachoose in Plone'
       provides="Products.GenericSetup.interfaces.EXTENSION"
   />
-
+  <genericsetup:upgradeStep
+      source="4"
+      destination="10"
+      title="4-10 rename resource, cook resources"
+      description=""
+      profile="collective.js.pikachoose:default"
+      handler=".upgrades.upgrade_4_10"
+      />
 </configure>
