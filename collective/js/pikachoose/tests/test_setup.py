@@ -8,7 +8,7 @@ class TestSetup(TestCase):
 
     def test_js_registred(self):
         resources = self.portal.portal_javascripts.getResourcesDict().keys()
-        resource = '++resource++jquery.pikachoose-4.0.4.js'
+        resource = '++resource++jquery.pikachoose.js'
         self.failUnless(resource in resources)
 
 def test_suite():
