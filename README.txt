@@ -3,7 +3,7 @@ Introduction
 
 Integration of pikachoose_ in Plone3 and Plone4.
 
-This version include pikachoose 4.0.4
+This version includes a modified version of pikachoose 4.4.4
 
 Credits
 =======
