@@ -2,6 +2,6 @@
 <metadata>
   <version>10</version>
   <dependencies>
-    <dependency>profile-collective.jq,jcarousel:default</dependency>
+    <dependency>profile-collective.js.jcarousel:default</dependency>
   </dependencies>
 </metadata>
