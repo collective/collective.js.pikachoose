@@ -11,12 +11,7 @@
     name="jquery.pikachoose.js"
     file="resources/assets/js/jquery.pikachoose.js"
     />
-    
-  <browser:resource
-    name="jquery.pikachoose.modified.js"
-    file="resources/assets/js/jquery.pikachoose.modified.js"
-    />
-    
+       
   <browser:resourceDirectory
     name="jquery.pikachoose"
     directory="resources"
