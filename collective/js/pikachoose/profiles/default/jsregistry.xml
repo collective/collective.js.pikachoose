@@ -2,7 +2,7 @@
 <object name="portal_javascripts">
 
  <javascript 
-    id="++resource++jquery.pikachoose.modified.js"
+    id="++resource++jquery.pikachoose.js"
     cacheable="True" compression="safe" cookable="False"
     enabled="True" expression=""  inline="False" conditionalcomment=""/>
 
