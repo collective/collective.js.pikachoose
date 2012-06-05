@@ -7,6 +7,7 @@ This version include pikachoose 4.4.8
 
 Exposed resources
 =================
+::
 
   ++resource++jquery.pikachoose.js
   ++resource++jquery.jcarousel.js
@@ -20,8 +21,8 @@ Companies
 
 |makinacom|_
 
-  * `Planet Makina Corpus <http://www.makina-corpus.org>`_
-  * `Contact us <mailto:python@makina-corpus.org>`_
+* `Planet Makina Corpus <http://www.makina-corpus.org>`_
+* `Contact us <mailto:python@makina-corpus.org>`_
 
 
 Authors
