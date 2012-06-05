@@ -1,13 +1,12 @@
 from setuptools import setup, find_packages
-import os
 
 version = '1.1dev'
 
 setup(name='collective.js.pikachoose',
       version=version,
       description="JQuery pickachoose plugin as browser resource",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description=open("README.rst").read() + "\n" +
+                       open("CHANGES.txt").read(),
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
