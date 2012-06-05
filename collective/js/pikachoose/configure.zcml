@@ -9,11 +9,11 @@
 
   <browser:resource
     name="jquery.pikachoose.js"
-    file="resources/assets/js/jquery.pikachoose.js"
+    file="resources/js/jquery.pikachoose.js"
     />
   <browser:resource
     name="jquery.jcarousel.js"
-    file="resources/assets/js/jquery.jcarousel.min.js"
+    file="resources/js/jquery.jcarousel.min.js"
     />
   <browser:resourceDirectory
     name="jquery.pikachoose"
@@ -27,11 +27,12 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
   />
   <genericsetup:upgradeStep
-      source="4"
-      destination="10"
-      title="4-10 rename resource, cook resources"
-      description=""
+      source="*"
+      destination="11"
+      title="Common upgrade"
+      description="cleanup previous release and apply default profiel"
       profile="collective.js.pikachoose:default"
-      handler=".upgrades.upgrade_4_10"
+      handler=".upgrades.common_upgrade"
       />
+
 </configure>

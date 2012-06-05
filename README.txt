@@ -3,7 +3,14 @@ Introduction
 
 Integration of pikachoose_ in Plone3 and Plone4.
 
-This version include pikachoose 4.4.4
+This version include pikachoose 4.4.8
+
+Exposed resources
+=================
+
+  ++resource++jquery.pikachoose.js
+  ++resource++jquery.jcarousel.js
+  ++resource++jquery.pikachoose/styles/base.css
 
 Credits
 =======

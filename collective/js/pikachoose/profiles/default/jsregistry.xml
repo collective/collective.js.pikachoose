@@ -11,4 +11,8 @@
     cacheable="True" compression="safe" cookable="False"
     enabled="True" expression=""  inline="False" conditionalcomment=""/>
 
+
+<!--  cleanup from previous releases -->
+ <javascript id="jquery.pikachoose-4.0.4.js" remove="True" />
+ 
 </object>

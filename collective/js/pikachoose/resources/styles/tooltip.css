@@ -1,16 +1,8 @@
-@font-face {
-  font-family: 'Yanone-thin';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Yanone-thin'), url('http://themes.googleusercontent.com/font?kit=We_iSDqttE3etzfdfhuPRfYfc3bPVUtuDoUoHMkf5-E') format('truetype');
-}
+body {font-family: helvetica, arial, sans-serif;}
+a{color:white;}
+.pika-wrap {width: 520px; margin: 0 auto;}
 
-body {font-family: helvetica, arial, sans-serif; }
-
-h1 { font-family:'Yanone-thin'; text-align: center;}
-.pikachoose{width:650px;position:relative;}
-.jcarousel-skin-pika{top:15px;right:0;position:absolute;}
-.pika-image {position: absolute; top:30px; left:0; height: 340px; width: 500px; background: #fafafa; border: 1px solid #e5e5e5; padding: 10px;}
+.pika-image {position: relative; height: 340px; width: 500px; background: #fafafa; border: 1px solid #e5e5e5; padding: 10px;}
 	/*position image holders */
 	.pika-image .animation, .pika-image .main-image {position: absolute; top: 10px; left: 10px;}
 	.pika-image .animation {display: none;z-index:2;}
@@ -25,7 +17,7 @@ h1 { font-family:'Yanone-thin'; text-align: center;}
 	.pika-imgnav a.play {background: url(../../assets/images/play.png) no-repeat 50% 50%; height: 100px; width: 40px;top:0;left:50%;display: none;cursor:pointer;}
 	.pika-imgnav a.pause {background: url(../../assets/images/pause.png) no-repeat 50% 50%; height: 100px; width: 40px;top:0;left:50%;display:none;cursor:pointer;}
 
-.pika-textnav {overflow: hidden; margin: 10px 0 0 0;}
+.pika-textnav {overflow: hidden; margin: 10px 0 0 0;bottom:10px; position:absolute; width:500px;}
 .pika-textnav a {font-size: 12px; text-decoration: none; font-family:  helvetica, arial, sans-serif; color: #333; padding: 4px;}
 		.pika-textnav a:hover {background: #e5e5e5; color: #0065B2;}
 	.pika-textnav a.previous {float: left; width: auto; display: block;}
@@ -36,37 +28,17 @@ h1 { font-family:'Yanone-thin'; text-align: center;}
 		.pika-thumbs li:last {margin: 0;}
 		.pika-thumbs li .clip {position:relative;width: 74px; height: 74px; text-align: center; vertical-align: center; overflow: hidden;}
 
+.clip span{background-color:black;position:absolute;top:5px;left:5px;display:block;}
+.pika-tooltip{font-size:12px;position:absolute;color:white;padding:3px; background-color: rgba(0,0,0,0.7);border:3px solid black;}
+ul#pikame{width:570px;}
+		
+		
 /* jCarousel Styles */
-.jcarousel-skin-pika .jcarousel-container-horizontal {
-    padding: 15px 30px;
-}
-
-.jcarousel-skin-pika .jcarousel-container-vertical {
-    width: 90px;
-    height: 350px;
-    padding: 20px 20px;
-}
-
-.jcarousel-skin-pika .jcarousel-clip-horizontal {
-    height: 90px;
-    width: 460px;
-}
-
-.jcarousel-skin-pika .jcarousel-clip-vertical {
-    width:  90px;
-    height: 350px;
-}
-
-.jcarousel-skin-pika .jcarousel-item-horizontal {
-    margin-right: 10px;
-}
-
-.jcarousel-skin-pika .jcarousel-item-vertical {
-    margin-bottom: 10px;
-}
-
-.jcarousel-skin-pika .jcarousel-item-placeholder {
-    background: #fff;
-    color: #000;
-}
-
+/*if you're not using the carousel you can delete everything below this */
+.jcarousel-skin-pika .jcarousel-container-horizontal { padding: 15px 30px;}
+.jcarousel-skin-pika .jcarousel-container-vertical { width: 90px; height: 350px; padding: 20px 20px;}
+.jcarousel-skin-pika .jcarousel-clip-horizontal {height: 90px; width: 460px;}
+.jcarousel-skin-pika .jcarousel-clip-vertical { width:  90px; height: 350px;}
+.jcarousel-skin-pika .jcarousel-item-horizontal { margin-right: 10px;}
+.jcarousel-skin-pika .jcarousel-item-vertical {margin-bottom: 10px;}
+.jcarousel-skin-pika .jcarousel-item-placeholder {background: #fff; color: #000;}
