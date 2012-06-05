@@ -3,12 +3,12 @@
 
  <javascript 
     id="++resource++jquery.pikachoose.js"
-    cacheable="True" compression="safe" cookable="False"
+    cacheable="True" compression="none" cookable="False"
     enabled="True" expression=""  inline="False" conditionalcomment=""/>
 
  <javascript 
     id="++resource++jquery.jcarousel.js"
-    cacheable="True" compression="safe" cookable="False"
+    cacheable="True" compression="none" cookable="False"
     enabled="True" expression=""  inline="False" conditionalcomment=""/>
 
 
