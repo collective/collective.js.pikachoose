@@ -24,6 +24,7 @@ setup(name='collective.js.pikachoose',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'collective.js.jcarousel'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
