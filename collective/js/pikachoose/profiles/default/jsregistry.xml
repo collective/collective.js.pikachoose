@@ -3,8 +3,14 @@
 
  <javascript 
     id="++resource++jquery.pikachoose.js"
-    cacheable="True" compression="none" cookable="False"
-    enabled="True" expression=""  inline="False" conditionalcomment=""/>
+    cacheable="True"
+    compression="none"
+    cookable="True"
+    enabled="True"
+    expression=""
+    inline="False"
+    conditionalcomment=""
+    />
 
 <!--  cleanup from previous releases -->
  <javascript id="jquery.pikachoose-4.0.4.js" remove="True" />
